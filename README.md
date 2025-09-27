@@ -127,7 +127,7 @@ The backend exposes the following API endpoints under the `/api` prefix:
 | :----- | :------------------------ | :----------------------------------------- |
 | `POST` | `/auth/register`          | Register a new user.                       |
 | `POST` | `/auth/login`             | Log in a user and receive tokens.          |
-| `POST` | `/auth/refresh-token`     | Obtain a new access token using a refresh token. |
+| `POST` | `/auth/refresh`     | Obtain a new access token using a refresh token. |
 | `GET` | `/users/profile`           | Displays the profile of the authenticated user. (Requires Auth). |
 
 ---
